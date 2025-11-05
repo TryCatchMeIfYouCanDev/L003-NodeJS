@@ -26,7 +26,7 @@ The module provides both **synchronous** and **asynchronous** versions of most m
 | Read directory   | `fs.readdir()`    | `fs.readdirSync()`    | Reads directory content                   |
 | Rename / Move    | `fs.rename()`     | `fs.renameSync()`     | Renames or moves files/directories        |
 
-> ⚠️ **Note:** Synchronous methods block the event loop. They are suitable only for simple scripts or startup tasks.
+>  **Note:** Synchronous methods block the event loop. They are suitable only for simple scripts or startup tasks.
 
 ---
 
@@ -111,7 +111,7 @@ npm i --save-dev @types/luxon
 
 ## 4. Practical Example — `es-fs.ts` ##
 
-Below is a simplified, corrected, and annotated version of the code integrating all key concepts.
+Below is a simplified, and annotated version of the code integrating all key concepts.
 
 ```ts
 import fs from "node:fs";
