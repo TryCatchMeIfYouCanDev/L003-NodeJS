@@ -1,4 +1,4 @@
-# LESSON ONE - Node.js File System and Process Notes #
+# LESSON THREE - Node.js File System and Process Notes #
 
 ## 1. Introduction ##
 
